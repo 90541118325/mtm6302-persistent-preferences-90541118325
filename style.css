@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.preferences {
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.expanded li {
+    display: block;
+}
+
+.compact li {
+    display: list-item;
+}
+
+.grid li {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
